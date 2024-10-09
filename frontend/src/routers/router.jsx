@@ -26,7 +26,7 @@ import Login from "../dashboard/Login";
       {
         path: "/book/:id",
         element:<SingleBook/>,
-        loader: ({params}) => fetch(`http://localhost:7000/book/${params.id}`)
+        loader: ({params}) => fetch(`https://bookreads-project-backend.onrender.com/book/${params.id}`)
       },
     ]
     },
@@ -45,7 +45,7 @@ import Login from "../dashboard/Login";
         {
           path: "/admin/edit-book/:id",
           element:<EditBook/>,
-          loader: ({params}) => fetch(`http://localhost:7000/book/${params.id}`)
+          loader: ({params}) => fetch(`https://bookreads-project-backend.onrender.com/book/${params.id}`)
         }
       ]
     },
