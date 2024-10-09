@@ -47,7 +47,7 @@ const EditBook = () => {
     }
     // console.log(bookObj)
     // update book data
-    fetch(`http://localhost:7000/book/${id}`, {
+    fetch(`https://bookreads-project-backend.onrender.com/book/${id}`, {
       method:"PATCH",
       headers: {
         'Content-Type': 'application/json'
