@@ -47,8 +47,6 @@ const BannerCard = () => {
         </SwiperSlide>
         
       </Swiper>
-        
-      </Swiper>
       </div>
   )
 }
